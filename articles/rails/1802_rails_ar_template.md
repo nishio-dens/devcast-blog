@@ -30,7 +30,7 @@ ActiveRecordの挙動を確認したい場合は、以下テンプレートを�
 - Rails masterバージョンのActiveRecordテンプレート
   - [https://github.com/rails/rails/blob/master/guides/bug\_report\_templates/active\_record\_master.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_master.rb)
 
-active_record_gem.rb は以下のようになっています。
+active\_record\_gem.rb は以下のようになっています。
 
 ```ruby
 # frozen_string_literal: true
