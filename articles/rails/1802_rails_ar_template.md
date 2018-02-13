@@ -17,7 +17,7 @@ DB migrationファイルやモデルを作って動作確認するのは面倒�
 
 Rails開発チームは、バグレポート用のテンプレートコードを以下に用意しています。
 
-- [https://github.com/rails/rails/tree/master/guides/bug_report_templates](https://github.com/rails/rails/tree/master/guides/bug_report_template)
+- [バグレポートテンプレート](https://github.com/rails/rails/tree/master/guides/bug_report_templates)
 
 このテンプレートは手元でRailsの挙動を動作確認する際にも利用できます。
 
@@ -26,9 +26,9 @@ Rails開発チームは、バグレポート用のテンプレートコードを
 ActiveRecordの挙動を確認したい場合は、以下テンプレートを使います。
 
 - RailsリリースバージョンのActiveRecordテンプレート
-  - [https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_gem.rb)
+  - [https://github.com/rails/rails/blob/master/guides/bug\_report\_templates/active\_record\_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_gem.rb)
 - Rails masterバージョンのActiveRecordテンプレート
-  - [https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_master.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_master.rb)
+  - [https://github.com/rails/rails/blob/master/guides/bug\_report\_templates/active\_record\_master.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_master.rb)
 
 active_record_gem.rb は以下のようになっています。
 
@@ -97,7 +97,7 @@ end
 
 
 DB のマイグレーションコードもテストしたい場合は、
-[https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_migrations_gem.rb](
+[https://github.com/rails/rails/blob/master/guides/bug_report_templates/active\_record\_migrations\_gem.rb](
 https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_migrations_gem.rb) のテンプレートを利用します。
 
 # ActiveRecordの動作確認用コード(mysql)
@@ -184,8 +184,8 @@ end
 ActiveRecord以外にもRailsは以下バグレポート用のテンプレートを用意しています。
 
 * Action Controller
-  * [https://github.com/rails/rails/blob/master/guides/bug_report_templates/action_controller_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/action_controller_gem.rb)
+  * [https://github.com/rails/rails/blob/master/guides/bug\_report\_templates/action\_controller\_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/action_controller_gem.rb)
 * Active Job
-  * [https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_job_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_job_gem.rb)
+  * [https://github.com/rails/rails/blob/master/guides/bug\_report\_templates/active\_job\_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_job_gem.rb)
 * その他汎用的なテンプレート
-  * [https://github.com/rails/rails/blob/master/guides/bug_report_templates/generic_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/generic_gem.rb)
+  * [https://github.com/rails/rails/blob/master/guides/bug\_report\_templates/generic\_gem.rb]( https://github.com/rails/rails/blob/master/guides/bug_report_templates/generic_gem.rb)
