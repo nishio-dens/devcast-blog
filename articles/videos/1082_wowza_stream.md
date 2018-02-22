@@ -4,7 +4,7 @@ author: nishio-dens
 categories: 動画配信
 tags: Wowza, Java, Video Streaming
 draft: false
-published_at: 2018-02-18 16:30
+published_at: 2018-02-22 19:00
 ---
 
 Wowzaでライブ動画を配信する際、配信者はストリーム名を指定します。
